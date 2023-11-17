@@ -1,0 +1,103 @@
+nav {
+background-color: #000000;
+color: #E7B022;
+font-family: Resolve sans, sans-serif;
+font-weight: 900;
+height: 50px;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+}
+
+nav li {
+margin: 0 20px;
+}
+
+nav a {
+display: block;
+color: #E7B022;
+text-decoration: none;
+padding: 10px;
+transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+color: #fff;
+}
+
+/*nav footer {
+	text-align: center;
+	font-family: resolve sans;
+	font-size: 14px;
+	padding: 20px;
+	margin-bottom: 20px;
+	height: 80px;
+	width: 100px;
+	height: 100px;
+}*/
+
+header {
+background-image: url(header-background.jpg);
+background-size: cover;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #000;
+text-align: center;
+}
+
+header h1 {
+font-size: 20px;
+margin-bottom: 10px;
+font-family: resolve sans, sans-serif;
+font-weight: 900;
+}
+
+header h2 {
+font-size: 20px;
+margin-bottom: 20px;
+font-family: Montserrat, sans-serif;
+font-weight: 600;
+color: #000000;
+}
+
+header button {
+padding: 10px 20px;
+background-color: #000000;
+color: #fff;
+border: none;
+font-size: 18px;
+font-family: Resolve sans, sans-serif;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+
+header button:hover {
+background-color: #fff;
+color: #000000;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+nav footer {
+background-color: #000000;
+color: #FFFFFF;
+font-family: Resolve sans, sans-serif;
+font-weight: 900;
+height: 70px;
+text-align: center;
+}
+
+nav footer p {
+	padding: 25px;
+}
